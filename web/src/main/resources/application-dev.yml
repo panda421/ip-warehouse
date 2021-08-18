@@ -1,0 +1,16 @@
+server:
+  port: 8888
+  error:
+    path: /error
+  servlet:
+    context-path: /proxy
+    session:
+      timeout: 3H
+    application-display-name: 代理IP服务
+
+spring:
+  application:
+    name: IP仓库-开发环境
+  mvc:
+    view:
+      suffix: .jsp
